@@ -97,16 +97,9 @@ CORRDELTA – dark-blue line, LEFT axis. This one takes a bit more explaining. I
 Data table:
 
 DATE
-
-WL_TOT
-
-LONGEST_WKS
-
-WK_100
-
-RANK_9WK
-
-CORRDELTA
+|--|--|--|--|
+| WL_TOT | LONGEST_WKS | WK_100 | RANK_9WK | CORRDELTA
+|--|--|--|--|
 
 31/12/2019
 
