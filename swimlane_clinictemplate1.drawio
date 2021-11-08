@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T23:30:04.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="W8ZV6W0fW9VqEMm_RdDe" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T23:54:00.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="rZTD4c4QZBOfb56I2qRo" version="15.4.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,7 +158,7 @@
             <mxPoint x="920" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MgAUhCTMofZDbDg7m2BW-3" value="Clinic created on PAS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;labelBackgroundColor=default;" parent="MgAUhCTMofZDbDg7m2BW-1" vertex="1">
+        <mxCell id="MgAUhCTMofZDbDg7m2BW-3" value="PAS Team create clinic in PAS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;labelBackgroundColor=default;" parent="MgAUhCTMofZDbDg7m2BW-1" vertex="1">
           <mxGeometry x="800" y="40" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-28" value="Clinic builds overnight on system (auto)" style="shape=datastore;rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;labelBackgroundColor=none;" parent="MgAUhCTMofZDbDg7m2BW-1" vertex="1">
@@ -333,6 +333,9 @@
         </mxCell>
         <mxCell id="jmSXlM150MN2Wve_eNSR-20" value="Leave, illness, conferences etc" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;strokeWidth=1;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1580" y="30" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jmSXlM150MN2Wve_eNSR-22" value="REFERENCES:&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;NI Hospital Waiting Times, June 2021: https://www.health-ni.gov.uk/publications/northern-ireland-waiting-time-statistics-outpatient-waiting-times-june-2021&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Trebble, T. M., Hansi, N., Hydes, T., Smith, M. A., &amp;amp; Baker, M. (2010). Process mapping the patient journey: an introduction. &lt;i&gt;BMJ&lt;/i&gt;, &lt;i&gt;341&lt;/i&gt;(aug13 1). https://doi.org/10.1136/bmj.c4078&lt;/li&gt;&lt;li&gt;&lt;div class=&quot;csl-entry&quot;&gt;Bengoa, R. (Expert Panel). (2016). &lt;i&gt;Systems, Not Structures: Changing Health &amp;amp; Social Care in Northern Ireland&lt;/i&gt;.&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#00FF00;strokeWidth=3;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="980" width="860" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
