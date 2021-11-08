@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T12:42:38.930Z" agent="5.0 (X11; CrOS aarch64 13982.88.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.162 Safari/537.36" etag="SRMquxc2JUAzktMtxuxB" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T00:16:30.322Z" agent="5.0 (X11; CrOS aarch64 14150.64.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.104 Safari/537.36" etag="OYr8EXpOGhTCEDY9xZlj" version="15.7.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="487" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1078" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="130" y="140" width="2140" height="830" as="geometry" />
+          <mxGeometry x="130" y="140" width="2210" height="830" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-35" value="email" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFCCE6;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#e1d5e7;" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-28" target="dNxyNK7c78bLwvsdeMH5-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Consultant/Secretary" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=default;strokeColor=default;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" width="2120" height="150" as="geometry" />
+          <mxGeometry x="20" width="2190" height="150" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-26" value="Consultant emails service manager with outline clinic proposal" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;fillColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="324" y="20" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-28" value="Consultant &amp;amp; Secretary complete Clinic Template form" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;fillColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-28" value="Consultant &amp;amp; Secretary complete Clinic Template form; email to Appts Manager" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;fillColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="670" y="30" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-3" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;startArrow=none;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-21" source="bUu3UqVvejy8OzPvvDE9-5" target="dNxyNK7c78bLwvsdeMH5-26" edge="1">
@@ -55,10 +55,21 @@
           <mxGeometry x="1125" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-47" value="cancel/ reduce clinic" style="triangle;whiteSpace=wrap;html=1;labelBackgroundColor=none;comic=0;strokeColor=#82b366;fillColor=#d5e8d4;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
-          <mxGeometry x="1320" y="20" width="60" height="80" as="geometry" />
+          <mxGeometry x="1450" y="30" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-10" value="Secretary completes Clinic Cancellation Form, emails to Appointments Manager" style="whiteSpace=wrap;html=1;fillColor=none;comic=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="1730" y="40" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="Service manager" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=default;strokeColor=default;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="150" width="2120" height="150" as="geometry" />
+          <mxGeometry x="20" y="150" width="2190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-27" value="NO" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="dNxyNK7c78bLwvsdeMH5-24" target="bUu3UqVvejy8OzPvvDE9-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="130" />
+              <mxPoint x="680" y="130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-24" value="funding available for clinic?" style="rhombus;rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;fillColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
           <mxGeometry x="260" y="30" width="80" height="60" as="geometry" />
@@ -87,14 +98,11 @@
         <mxCell id="bUu3UqVvejy8OzPvvDE9-20" value="YES" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="dNxyNK7c78bLwvsdeMH5-20" source="bUu3UqVvejy8OzPvvDE9-12" target="bUu3UqVvejy8OzPvvDE9-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-16" value="end" style="triangle;direction=west;whiteSpace=wrap;html=1;comic=0;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-          <mxGeometry x="870" y="100" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-17" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" source="bUu3UqVvejy8OzPvvDE9-14" target="bUu3UqVvejy8OzPvvDE9-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-3" value="end" style="triangle;direction=west;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="1300" y="40" width="35" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Booking Office" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=default;strokeColor=default;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="300" width="2120" height="180" as="geometry" />
+          <mxGeometry x="20" y="300" width="2190" height="180" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-37" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-22" source="dNxyNK7c78bLwvsdeMH5-34" target="dNxyNK7c78bLwvsdeMH5-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -108,75 +116,110 @@
         <mxCell id="bUu3UqVvejy8OzPvvDE9-36" value="Booking office initiate Partial Booking process" style="whiteSpace=wrap;html=1;fontColor=#000000;fillColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
           <mxGeometry x="1310" y="65" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-41" value="end" style="triangle;direction=west;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
-          <mxGeometry x="1670" y="80" width="20" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-39" value="Patients booked for clinic" style="whiteSpace=wrap;html=1;fontColor=#000000;fillColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
           <mxGeometry x="1510" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-40" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-22" source="bUu3UqVvejy8OzPvvDE9-36" target="bUu3UqVvejy8OzPvvDE9-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-42" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-22" source="bUu3UqVvejy8OzPvvDE9-39" target="bUu3UqVvejy8OzPvvDE9-41" edge="1">
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-45" value="email schedule to Records office 3 days in advance for records-pull (not shown)" style="whiteSpace=wrap;html=1;fontColor=#000000;fillColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="1470" y="110" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-46" value="email" style="rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFCCFF;fontColor=default;strokeColor=default;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-22" source="bUu3UqVvejy8OzPvvDE9-39" target="bUu3UqVvejy8OzPvvDE9-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-45" value="email schedule to Records office 3 days in advance" style="whiteSpace=wrap;html=1;fontColor=#000000;fillColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
-          <mxGeometry x="1504" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-12" value="Appointments Manager checks form; emails Booking Officer" style="whiteSpace=wrap;html=1;fillColor=none;comic=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="1745" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-46" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-22" source="bUu3UqVvejy8OzPvvDE9-39" target="bUu3UqVvejy8OzPvvDE9-45" edge="1">
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-33" value="email" style="rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCFF;fontColor=default;strokeColor=default;fillColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="dNxyNK7c78bLwvsdeMH5-19" source="bUu3UqVvejy8OzPvvDE9-30" target="MgAUhCTMofZDbDg7m2BW-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MgAUhCTMofZDbDg7m2BW-1" value="PAS Team" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=default;strokeColor=default;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="480" width="2120" height="130" as="geometry" />
+          <mxGeometry x="20" y="480" width="2190" height="130" as="geometry" />
         </mxCell>
         <mxCell id="MgAUhCTMofZDbDg7m2BW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" parent="MgAUhCTMofZDbDg7m2BW-1" source="MgAUhCTMofZDbDg7m2BW-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="70" as="targetPoint" />
+            <mxPoint x="920" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MgAUhCTMofZDbDg7m2BW-3" value="Clinic created on PAS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;labelBackgroundColor=default;" parent="MgAUhCTMofZDbDg7m2BW-1" vertex="1">
-          <mxGeometry x="500" y="40" width="80" height="60" as="geometry" />
+          <mxGeometry x="800" y="40" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-28" value="Clinic builds overnight on system" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;labelBackgroundColor=default;" parent="MgAUhCTMofZDbDg7m2BW-1" vertex="1">
-          <mxGeometry x="660" y="40" width="80" height="60" as="geometry" />
+          <mxGeometry x="960" y="40" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" parent="MgAUhCTMofZDbDg7m2BW-1" source="MgAUhCTMofZDbDg7m2BW-3" target="bUu3UqVvejy8OzPvvDE9-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-30" value="email to Consultant, Secretary, Admin Lead, Service Manager, Booking office" style="whiteSpace=wrap;html=1;rounded=0;fontColor=default;strokeColor=default;labelBackgroundColor=default;fillColor=default;" parent="MgAUhCTMofZDbDg7m2BW-1" vertex="1">
-          <mxGeometry x="800" y="20" width="120" height="80" as="geometry" />
+          <mxGeometry x="1100" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" parent="MgAUhCTMofZDbDg7m2BW-1" source="bUu3UqVvejy8OzPvvDE9-28" target="bUu3UqVvejy8OzPvvDE9-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-26" target="dNxyNK7c78bLwvsdeMH5-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-11" value="email" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFCCFF;fontColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-26" target="dNxyNK7c78bLwvsdeMH5-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="130" />
+              <mxPoint x="320" y="130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-21" value="email" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=#FFCCE6;fontColor=default;strokeColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-19" source="bUu3UqVvejy8OzPvvDE9-19" target="dNxyNK7c78bLwvsdeMH5-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MgAUhCTMofZDbDg7m2BW-7" value="Reception team" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=default;strokeColor=default;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="610" width="2120" height="220" as="geometry" />
+          <mxGeometry x="20" y="610" width="2190" height="220" as="geometry" />
         </mxCell>
         <mxCell id="MgAUhCTMofZDbDg7m2BW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;" parent="MgAUhCTMofZDbDg7m2BW-7" source="MgAUhCTMofZDbDg7m2BW-9" target="MgAUhCTMofZDbDg7m2BW-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MgAUhCTMofZDbDg7m2BW-9" value="Verifies resources present" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;labelBackgroundColor=default;" parent="MgAUhCTMofZDbDg7m2BW-7" vertex="1">
-          <mxGeometry x="820" y="20" width="80" height="60" as="geometry" />
+          <mxGeometry x="1120" y="20" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCFF;" edge="1" parent="MgAUhCTMofZDbDg7m2BW-7" source="MgAUhCTMofZDbDg7m2BW-10" target="ydvmDRrFAN9WvAYJlnI0-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MgAUhCTMofZDbDg7m2BW-10" value="Add clinic to schedule" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;fillColor=default;strokeColor=default;labelBackgroundColor=default;" parent="MgAUhCTMofZDbDg7m2BW-7" vertex="1">
-          <mxGeometry x="940" y="30" width="90" height="40" as="geometry" />
+          <mxGeometry x="1240" y="30" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;jumpStyle=arc;edgeStyle=orthogonalEdgeStyle;" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-36" target="MgAUhCTMofZDbDg7m2BW-3" edge="1">
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-41" value="end" style="triangle;direction=west;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" parent="MgAUhCTMofZDbDg7m2BW-7" vertex="1">
+          <mxGeometry x="1734" y="41" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-20" value="end" style="triangle;direction=west;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" vertex="1" parent="MgAUhCTMofZDbDg7m2BW-7">
+          <mxGeometry x="1370" y="35" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-23" value="Records received in clinic; clinic ready to proceed" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="MgAUhCTMofZDbDg7m2BW-7">
+          <mxGeometry x="1500" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=#FFCCFF;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MgAUhCTMofZDbDg7m2BW-7" source="ydvmDRrFAN9WvAYJlnI0-23" target="bUu3UqVvejy8OzPvvDE9-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-32" value="email" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFCCFF;fontColor=default;strokeColor=default;fillColor=default;jumpStyle=arc;edgeStyle=orthogonalEdgeStyle;" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-36" target="MgAUhCTMofZDbDg7m2BW-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-33" style="rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="dNxyNK7c78bLwvsdeMH5-19" source="bUu3UqVvejy8OzPvvDE9-30" target="MgAUhCTMofZDbDg7m2BW-9" edge="1">
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-35" value="email" style="edgeStyle=none;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFCCFF;fontColor=default;strokeColor=default;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-36" target="bUu3UqVvejy8OzPvvDE9-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-35" value="" style="edgeStyle=none;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-36" target="bUu3UqVvejy8OzPvvDE9-34" edge="1">
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-38" value="email" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=#FFCCFF;fontColor=default;strokeColor=default;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" source="bUu3UqVvejy8OzPvvDE9-30" target="bUu3UqVvejy8OzPvvDE9-36" edge="1">
+          <mxGeometry x="-0.2" y="30" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-42" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-19" source="bUu3UqVvejy8OzPvvDE9-39" target="bUu3UqVvejy8OzPvvDE9-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-19" source="bUu3UqVvejy8OzPvvDE9-30" target="bUu3UqVvejy8OzPvvDE9-36" edge="1">
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-5" value="email" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;labelBackgroundColor=#FFCCFF;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-36" target="ydvmDRrFAN9WvAYJlnI0-3">
+          <mxGeometry x="-0.0886" y="-17" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-13" value="email" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFCCFF;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="ydvmDRrFAN9WvAYJlnI0-10" target="ydvmDRrFAN9WvAYJlnI0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-24" value="(3 days)" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFCCFF;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="bUu3UqVvejy8OzPvvDE9-45" target="ydvmDRrFAN9WvAYJlnI0-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-43" value="New&lt;br&gt;Review&lt;br&gt;Red Flags&lt;br&gt;F2F&lt;br&gt;Video&lt;br&gt;Phone&lt;br&gt;Hybrid" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;comic=0;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
@@ -185,14 +228,50 @@
         <mxCell id="bUu3UqVvejy8OzPvvDE9-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;strokeColor=#d6b656;fillColor=#fff2cc;endArrow=none;endFill=0;dashed=1;" parent="1" source="dNxyNK7c78bLwvsdeMH5-26" target="bUu3UqVvejy8OzPvvDE9-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cjcmX-COb20PdfYsusR8-2" value="note" style="shape=note;rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="cjcmX-COb20PdfYsusR8-2" value="note" style="shape=note;rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="850" y="10" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cjcmX-COb20PdfYsusR8-4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=#FFCCE6;endArrow=none;endFill=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="cjcmX-COb20PdfYsusR8-3" target="bUu3UqVvejy8OzPvvDE9-2">
+        <mxCell id="cjcmX-COb20PdfYsusR8-4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=#FFCCE6;endArrow=none;endFill=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="cjcmX-COb20PdfYsusR8-3" target="bUu3UqVvejy8OzPvvDE9-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cjcmX-COb20PdfYsusR8-3" value="Variable process involving service management, Trust, commissioners etc" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="cjcmX-COb20PdfYsusR8-3" value="Variable process involving service management, Trust, commissioners etc" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="340" y="10" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-1" value="end" style="triangle;direction=west;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="180" width="35" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bUu3UqVvejy8OzPvvDE9-34" target="ydvmDRrFAN9WvAYJlnI0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-11" value="email" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFCCFF;" edge="1" parent="1" source="ydvmDRrFAN9WvAYJlnI0-8" target="ydvmDRrFAN9WvAYJlnI0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-8" value="Consultant emails secretary with clinic variation instructions" style="whiteSpace=wrap;html=1;comic=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-9" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFCCFF;" edge="1" parent="1" source="bUu3UqVvejy8OzPvvDE9-47" target="ydvmDRrFAN9WvAYJlnI0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-14" value="Booking Officer cancels clinic on PAS" style="whiteSpace=wrap;html=1;fillColor=none;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="2095" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-15" value="email" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFCCFF;" edge="1" parent="1" source="ydvmDRrFAN9WvAYJlnI0-12" target="ydvmDRrFAN9WvAYJlnI0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-18" value="end" style="triangle;direction=west;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="510" width="35" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ydvmDRrFAN9WvAYJlnI0-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFCCFF;endArrow=none;" edge="1" parent="1" source="ydvmDRrFAN9WvAYJlnI0-14" target="ydvmDRrFAN9WvAYJlnI0-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2215" y="530" as="sourcePoint" />
+            <mxPoint x="2295" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-16" value="end" style="triangle;direction=west;whiteSpace=wrap;html=1;comic=0;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-17" value="email" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFCCFF;fontColor=default;strokeColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="bUu3UqVvejy8OzPvvDE9-14" target="bUu3UqVvejy8OzPvvDE9-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
