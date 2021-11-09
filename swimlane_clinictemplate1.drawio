@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T10:19:56.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="s81hpeQsmjwwqLk4g9jG" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T14:30:45.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="oxXPCBvwN9DasNbu4_Z_" version="15.7.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,7 +87,7 @@
         <mxCell id="dNxyNK7c78bLwvsdeMH5-30" value="Approval, check: Accommodation, Nursing staff,&lt;br&gt;Reception staff" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;fillColor=default;strokeColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
           <mxGeometry x="390" y="30" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUu3UqVvejy8OzPvvDE9-12" value="resources available?" style="rhombus;whiteSpace=wrap;html=1;comic=0;fontColor=default;strokeColor=default;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+        <mxCell id="bUu3UqVvejy8OzPvvDE9-12" value="Resources available?" style="rhombus;whiteSpace=wrap;html=1;comic=0;fontColor=default;strokeColor=default;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
           <mxGeometry x="540" y="20" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bUu3UqVvejy8OzPvvDE9-14" value="Clinic unable to be set up. Email consultant and secretary" style="whiteSpace=wrap;html=1;comic=0;fillColor=default;strokeColor=default;fontColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
@@ -298,17 +298,17 @@
         <mxCell id="jmSXlM150MN2Wve_eNSR-8" value="This may involve phone or letter; verifies contact details. For video appointments, email required" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="1260" y="30" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="jmSXlM150MN2Wve_eNSR-10" value="LEGEND" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1740" y="40" width="600" height="90" as="geometry" />
+        <mxCell id="jmSXlM150MN2Wve_eNSR-10" value="LEGEND" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;align=left;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1725" y="40" width="600" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cjcmX-COb20PdfYsusR8-2" value="note" style="shape=note;rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="50" width="50" height="40" as="geometry" />
+          <mxGeometry x="1740" y="70" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jmSXlM150MN2Wve_eNSR-11" value="Action" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1810" y="50" width="60" height="40" as="geometry" />
+          <mxGeometry x="1810" y="70" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jmSXlM150MN2Wve_eNSR-12" value="Decision" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1890" y="50" width="60" height="45" as="geometry" />
+          <mxGeometry x="1890" y="67.5" width="60" height="45" as="geometry" />
         </mxCell>
         <mxCell id="jmSXlM150MN2Wve_eNSR-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.133;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=#FFCCFF;endArrow=none;endFill=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="jmSXlM150MN2Wve_eNSR-13" target="bUu3UqVvejy8OzPvvDE9-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -332,13 +332,13 @@
           <mxGeometry x="840" y="35" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jmSXlM150MN2Wve_eNSR-16" value="stop" style="triangle;direction=west;whiteSpace=wrap;html=1;comic=0;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2010" y="55" width="30" height="30" as="geometry" />
+          <mxGeometry x="2010" y="75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jmSXlM150MN2Wve_eNSR-17" value="start" style="triangle;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1970" y="55" width="30" height="30" as="geometry" />
+          <mxGeometry x="1970" y="75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jmSXlM150MN2Wve_eNSR-19" value="IT system" style="shape=datastore;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="50" width="60" height="60" as="geometry" />
+          <mxGeometry x="2060" y="60" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jmSXlM150MN2Wve_eNSR-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=#FFCCFF;endArrow=none;endFill=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="jmSXlM150MN2Wve_eNSR-20" target="bUu3UqVvejy8OzPvvDE9-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
